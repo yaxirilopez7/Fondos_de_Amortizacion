@@ -1,0 +1,150 @@
+---
+title: "Presentacion_FondosDeAmortizacion.qmd"
+author: "Estudiantes de la Licenciatura en Actuaria y Ciencia de Datos: Cristina Calderón Avaloz, Juan Pablo Tellez Marquez, Fernando Zuriel Martinez Barrera, Luis Eduardo Urquiza Hernandez, Carmen Yaxiri Lopez Garcia"
+format: revealjs
+editor: visual
+---
+
+## ***INTRODUCCION.***
+
+En el mundo de las finanzas, existen diversas herramientas que las empresas pueden utilizar para la gestion de deudas a largo plazo, donde se garantice el pago oportuno de los prestamos de fondos.
+
+Para ello, es esencial conocer algunos conceptos.
+
+***Amortizar:*** significa pagar una deuda y sus intereses por medio de una serie de pagos periódicos, generalmente de igual valor.
+
+***En finanzas,*** la palabra *fondo* se refiere a una cantidad de dinero destinada a un fin.
+
+## ¿QUE ES UN FONDO DE AMORTIZACION?
+
+El fondo de amortización es un fondo de inversión que permite lograr un determinado monto en un plazo definido y que será destinado para cumplir con una obligación futura.
+
+El fondo de amortización se construye mediante pagos periódicos, realizados a una cuenta que gana intereses.
+
+$Abono$= Amortizacion $+$ Intereses generados en el período
+
+## ¿PARA QUÉ SIRVEN LOS FONDOS DE AMORTIZACIÓN?
+
+Suelen utilizarse para cubrir deudas, las cuales se liquidan con un unico pago en el momento de su vencimiento. Otra aplicacion es como fondos para contingencia futuras o gastos previstos a futuro, tal que es la compra de equipos o simplemente un ahorro para estudios.
+
+-   1.-Pagar una deuda que vence en fechas futuras
+
+-   2.-Comprar equipo nuevo que sustituya al depreciado
+
+-   3.-Pagar educacion
+
+-   4.-Comprar automovil, etc
+
+## ¿PARA QUÉ SIRVEN LOS FONDOS DE AMORTIZACIÓN?
+
+![](images/clipboard-9775626.png){width="365"}
+
+------------------------------------------------------------------------
+
+## Diferencias entre los fondos de amortizacion
+
+Si bien los fondos de amortizacion y la amortizacion de deudas se utilizan a fin de pagar una obligacion, existe una clara diferencia entre ellos
+
+***PAGOS PERIÓDICOS:*** se destina a pagar una deuda que ya se tiene
+
+![]()![](images/clipboard-3082018128.png)
+
+------------------------------------------------------------------------
+
+***DEPOSITO PERIODICO:*** tienen como objetivo la acumulación de dinero para liquidar una deuda futura.
+
+Por lo general, los montos que se obtienen de un fondo de amortizacion se calculan mediante las formulas del monto de una anualidad vencida o anticipada.
+
+![](images/clipboard-3255391129.png)
+
+## Ejemplo
+
+A continuacion, para un mayor entendimiento dejamos el siguiente ejemplo.
+
+La vida útil de un equipo industrial que acaba de ser adquirido por una empresa es de 5 años. A fin de reemplazarlo al final de este tiempo, la compañía establece un fondo de amortización efectuando depósitos anuales vencidos en una cuenta bancaria que paga el 9.6% anual. Si se estima que el equipo costará \$1 442 740, calcule el valor del depósito anual
+
+**SOLUCION:** Se trata de hallar el pago periódico de una anualidad vencida cuyo monto será de \$1 442 740 al final de 5 años y cuya tasa de interés es del 9.6% anual capitalizable cada año.
+
+## Visualizacion
+
+$$
+A = \frac{Fi}{(1 + i)^n - 1} = \frac{(1\,442\,740)(0.096)}{[(1 + 0.096)^5 - 1]} = \$238,206.86
+$$
+
+El fondo de amortización se constituye depositando \$238 206.86 al final de cada año, durante 5 años.
+
+## tabla de capitalizacion
+
+Una tabla de capitalización, llamada también tabla de fondo de amortización, muestra la forma en que se acumula el dinero, período tras período, en un fondo de amortización.
+
+![](images/clipboard-3912131373.png)
+
+## tabla de capitalizacion.
+
+La tabla de capitalización se construye de la siguiente forma:
+
+```         
+-   El interés ganado al final de un año (columna 3) se obtiene al utilizar la fórmula del interés simple, usando como capital la cantidad al inicio del año (columna 2). Por ejemplo, el interés ganado al final del segundo año es:
+
+$I$=(238 206.86)(0.096)(1)= \$22 867.86
+
+
+-   El monto al final de un año (columna 5) es igual a la suma de las columnas 2, 3 y 4. Por ejemplo, el monto al final del segundo año es: 238 206.86 $+$ 22 867.86 $+$ 238 206.86= \$499 281.58
+
+
+-   Los depósitos hechos al final de un año no ganan intereses.
+```
+
+## Método del fondo de amortización
+
+El método del fondo de amortización es una variante del método de línea recta que sí toma en cuenta los intereses, de tal manera que la suma de los depósitos anuales más sus intereses sea igual, al final de la vida útil del activo, a la depreciación total.
+
+Si **D** es la depreciación anual que está siendo colocada en un fondo de depreciación que paga una tasa de interés ***i,*** entonces el monto obtenido al final de ***n*** años de vida útil del activo es igual a la depreciación total.
+
+$$
+D = \frac{(DT)(i)}{(1 + i)^n - 1}
+$$
+
+## Ejemplo de Metodo de Fondos de Amortizacion
+
+Para un mayor entendimiento de lo anterior, analice el siguiente ejemplo:
+
+Una máquina cuyo costo fue de 275 000 pesos tiene una vida útil de 5 años al cabo de los cuales se podrá vender en \$22 000. Si los cargos por depreciación anual se invierten en un fondo de reserva que paga un interés del 10% anual, calcule:
+
+a\) la depreciación total y
+
+b)la depreciación anual.
+
+## SOLUCION:
+
+a)  $DT$= 275 000 $-$ 22 000=\$253 000
+
+b)  $$
+    D =\frac{(253 000)(0.10)}{(1+0.10)^5 - 1} = $41 440.76
+    $$
+
+Al depositar 41 440.76 pesos cada fin de año en el fondo de depreciación, se tendrá un monto de \$253 000 al cabo de 5 años.
+
+## Tabla
+
+La tabla de depreciación para el ejemplo anterior
+
+![](images/clipboard-3957184009.png)
+
+------------------------------------------------------------------------
+
+El interés ganado al final de un año cualquiera se obtiene al multiplicar la deprecia ción acumulada al final del año anterior por la tasa de interés.
+
+La depreciación anual en un año cualquiera es la suma del depósito hecho más el interés ganado en ese año
+
+## Conclusiones.
+
+Los fondos de amortizacion son herramientas finanvieras esenciales para la gestion de deudas a largo plazo. Su principal objetivo es garantizar el pago oportuno de un prestamo mediante la creacion de un fonfo que cubra el capital e interes a pagar.
+
+Al comprender los mecacnismo de amortizacion, los individuos y las empresas pueden tomar decisiones financieras mas informadas, optimizar el manejo de sus recursos y minimizar los riesgos asociados al endeudamiento.
+
+## BIBLIOGRAFIAS
+
+Héctor Manuel Vidaurri Aguirre Matemáticas financieras, Sexta edición ISBN: 978-607-526-284-0
+
+Díaz Mata, Alfredo y Aguilera Gómez, Víctor (2008). Matemáticas financieras (4ª ed.). México: McGraw-Hill. \[e-book disponible en REDUNAM,
